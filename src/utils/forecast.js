@@ -11,6 +11,7 @@ const forecast=(lat,logi,callback)=>{
             callback('Unable to find location',undefined)
         }
         else{
+            console.log(body.current)
             const data ={
                 desciption:body.current.weather_descriptions[0],
                 temp:body.current.temperature ,

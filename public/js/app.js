@@ -22,7 +22,7 @@ weatherForm.addEventListener('submit',(e)=>{
         
        }
         else{
-            console.log("testing for forcast" + data)
+            
             messageOne.textContent=data.location
             messageTwo.textContent=data.forcast
       }
